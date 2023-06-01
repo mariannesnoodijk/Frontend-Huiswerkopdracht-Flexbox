@@ -1,1 +1,71 @@
 /*Schrijf hier jouw CSS*/
+/*-------- O P D R A C H T  1 --------*/
+
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+/*-------- E I N D E  O P D R A C H T  1 -------- */
+
+
+/*-------- O P D R A C H T  2 --------*/
+.opdracht-2 ul {
+    display: flex;
+    flex-direction: row;
+}
+.opdracht-2 li {
+    flex-basis: 300px;
+}
+/*-------- E I N D E  O P D R A C H T  2 -------- */
+
+
+/*-------- O P D R A C H T  3 --------*/
+.opdracht-3 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+.top-left {
+    align-self: start;
+}
+.centered {
+    align-self: center;
+}
+.bottom-right {
+    align-self: end;
+}
+/*-------- E I N D E  O P D R A C H T  3 -------- */
+
+
+/*-------- O P D R A C H T  4 --------*/
+.opdracht-4 ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+/*-------- E I N D E  O P D R A C H T  4 -------- */
+
+
+/*-------- O P D R A C H T  5 --------*/
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+}
+ .opdracht-5 ul {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+:nth-child(2) {
+    align-items: center;
+}
+:nth-child(3) {
+    align-items: flex-end;
+}
+/*-------- E I N D E  O P D R A C H T  5 -------- */
